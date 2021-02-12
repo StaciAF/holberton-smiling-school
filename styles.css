@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Source Sans Pro';
+}
+
+#bg-img {
+    background-image: url('images/pic_1.jpg');
+}
+
+.navbar-brand #logo {
+    width: 110;
+    height: 15px;
+}
+
+.navbar-brand #emblem {
+    width: 20px;
+    height: 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 150px;
+}
+
+@media  (max-width: 348px) {
+    h1 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+}
+
+@media  (min-width: 768px) {
+    h1 {
+        font-size: 120px;
+        line-height: 150px;
+    }
+}
+
+.btn-primary {
+    background-color: #C271FF;
+    border: #C271FF;
+}
+
+.btn-primary:hover {
+    background-color: #C271FF;
+}
+
+strong {
+    color: #C271FF;
+}
