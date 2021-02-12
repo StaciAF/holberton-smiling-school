@@ -8,11 +8,13 @@ body {
 
 #bg-img {
     background-image: url('images/pic_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar-brand #logo {
-    width: 110;
-    height: 15px;
+    width: 114px;
+    height: 20px;
 }
 
 .navbar-brand #emblem {
@@ -31,7 +33,7 @@ h1 {
 
 @media  (max-width: 348px) {
     h1 {
-        font-size: 60px;
+        font-size: 55px;
         line-height: 75px;
     }
 }
@@ -41,6 +43,10 @@ h1 {
         font-size: 120px;
         line-height: 150px;
     }
+}
+
+.top-buffer {
+    margin-top: 160px;
 }
 
 .btn-primary {
@@ -54,4 +60,13 @@ h1 {
 
 strong {
     color: #C271FF;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.col-space {
+    margin-top 5px;
 }
