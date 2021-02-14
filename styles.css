@@ -12,6 +12,10 @@ body {
     background-size: cover;
 }
 
+.bg-primary {
+    background-color: #C271FF !important;
+}
+
 .navbar-brand #logo {
     width: 114px;
     height: 20px;
@@ -58,7 +62,7 @@ h1 {
     background-color: #C271FF;
 }
 
-strong {
+h3 strong {
     color: #C271FF;
 }
 
@@ -69,4 +73,8 @@ img {
 
 .col-space {
     margin-top 5px;
+}
+
+.carousel {
+    background-color: #C271FF;
 }
