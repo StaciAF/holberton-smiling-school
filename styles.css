@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'iconic-sm';
+    src: url('../fonts/iconic-sm.eot');
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -9,11 +14,21 @@ body {
 #bg-img {
     background-image: url('images/pic_1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+}
+
+#bg-img-price {
+    background-image: url('images/pic_2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .bg-primary {
     background-color: #C271FF !important;
+}
+
+.text-primary {
+    color: #C271FF !important;
 }
 
 .navbar-brand #logo {
@@ -75,6 +90,59 @@ img {
     margin-top 5px;
 }
 
-.carousel {
-    background-color: #C271FF;
+h4 strong {
+    color: #C271FF;
+}
+
+.video img {
+    width: 255px;
+    height: 154px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.card-body img {
+    width: 30px;
+    height: 30px;
+}
+
+.checked {
+    color: #C271FF;
+}
+
+.unchecked {
+    color: lightgrey;
+}
+
+.bg-alt {
+    background-color: #071629;
+}
+
+.social-link {
+    fill: white;
+}
+
+li {
+    list-style: none;
+}
+
+#pricing-h1 {
+    font-size: 32px;
+}
+
+#pricing-logo {
+    width: 37px;
+    height: 30px;
+}
+
+#pricing-emblem {
+    width: 155px;
+    height: 75px;
+}
+
+#pricing-head {
+    font-size: 60px;
 }
