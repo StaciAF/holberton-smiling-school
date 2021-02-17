@@ -14,13 +14,19 @@ body {
 #bg-img {
     background-image: url('images/pic_1.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-origin: center;
+    background-clip: center;
+    background-position: center;
+    background-size: cover;
 }
 
 #bg-img-price {
     background-image: url('images/pic_2.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-origin: center;
+    background-clip: center;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-primary {
@@ -99,6 +105,28 @@ h4 strong {
     height: 154px;
 }
 
+#bg-img-carousel1 {
+    background-image: url('images/thumbnail_1.jpg');
+    background-repeat: no-repeat;
+    background-origin: center;
+    background-clip: center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#bg-img-carousel2 {
+    background-image: url('images/thumbnail_2.jpg');
+}
+
+#bg-img-carousel3 {
+    background-image: url('images/thumbnail_3.jpg');
+}
+
+#bg-img-carousel4 {
+    background-image: url('images/thumbnail_4.jpg');
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(1);
@@ -145,4 +173,20 @@ li {
 
 #pricing-head {
     font-size: 60px;
+}
+
+hr {
+    background-color: lightslategray;
+}
+
+#signal-logo {
+    width: 75px;
+    height: 50px;
+}
+
+.circle {
+    height: 28px;
+    width: 28px;
+    background-color: #82D24F;
+    border-radius: 50%;
 }

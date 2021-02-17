@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Holberton - Web Stack - Bootstrap</title>
+    <meta name="description" content="Bootstrap is a free and open-source CSS framework">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap v.4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="bg-img-price">
+        <div class="container-fluid">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-expanded="false" aria-label="toggle nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row w-50">
+                    <div class="col-lg-1 col-sm-6 col-md-2 text-center">
+                        <a href="#" class="navbar-brand mr-auto"><img src="images/smile_on.png"
+                                alt="company-smile-emblem" class="d-block mx-auto mx-md-0" id="emblem"></a>
+                    </div>
+                    <div class="col-lg-1 col-sm-6 col-md-2">
+                        <a href="#" class="navbar-brand mr-auto"><img src="images/logo.png" alt="company-logo"
+                                class="d-block mx-auto mx-md-0" id="logo"></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar navbar-nav ml-auto">
+                        <li class="navbar-item mr-2 ml-4">
+                            <a href="#courses" class="nav-link text-white">Courses</a>
+                        </li>
+                        <li class="navbar-item mr-2 ml-4">
+                            <a href="#pricing" class="nav-link text-white">Pricing</a>
+                        </li>
+                        <li class="navbar-item mr-2 ml-4">
+                            <a href="#login" class="nav-link text-white">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Hero/Header -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 id="pricing-h1" class="font-weight-light text-white top-buffer">What is
+                    <img id="pricing-logo" src="images/smile_off.png" alt="smile-logo">
+                    <img id="pricing-emblem" src="images/logo.png" alt="school-emblem">
+                    ?</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto-4 mr-4 ml-4 pb-5">
+                    <h3 id="pricing-head" class="text-white font-weight-bold">Go pro!</h3>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing Grid -->
+        <div class="container pb-5">
+            <div class="row justify-content-end">
+                <div class="col-4 p-0">
+                    <button type="button" class="btn btn-primary rounded-pill mt-4 ml-4">BUY 3 MONTHS</button>
+                </div>
+                <div class="col-3  p-0">
+                    <button type="button" class="btn btn-primary rounded-pill mt-4 ml-3">BUY 1 YEAR</button>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-4 p-0 mt-4">
+                    <h3 id="pricing-h3" class="text-white font-weight-bold mb-0 ml-5">$3.60</h3>
+                    <p class="text-muted mt-0 ml-5">$1.20/month</p>
+                </div>
+                <div class="col-3 p-0 mt-4">
+                    <h3 id="pricing-h3" class="text-white font-weight-bold mb-0 ml-4">$12.99</h3>
+                    <p class="text-muted mt-0 ml-4">$1.08/month</p>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-4 text-white p-0">
+                    <p class="text-center">3 MONTHS</p>
+                </div>
+                <div class="col-4 text-white p-0">
+                    <p class="text-center">1 YEAR</p>
+                </div>
+            </div>
+            <div class="row justify-content-between pt-5">
+                <div class="col-4">
+                    <p class="text-white">Unlimited access to all tutorials</p>
+                </div>
+                <div class="col-3 col-offset-1 align-self-center">
+                    <div class="row circle ml-5 justify-content-center">
+                        <i class="fas fa-check mt-1"></i>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row circle ml-5 justify-content-center">
+                        <i class="fas fa-check mt-1"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <p class="text-white">Access SmileSchool private forum</p>
+                </div>
+                <div class="col-3 col-offset-1 align-self-center">
+                    <div class="row circle ml-5 justify-content-center">
+                        <i class="fas fa-check mt-1"></i>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row circle ml-5 justify-content-center">
+                        <i class="fas fa-check mt-1"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <p class="text-white">Access Smiles contests & Smiles Analysis</p>
+                </div>
+                <div class="col-3 col-offset-1 align-self-center">
+                    <div class="row circle ml-5 justify-content-center">
+                        <i class="fas fa-check mt-1"></i>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row circle ml-5 justify-content-center">
+                        <i class="fas fa-check mt-1"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <p class="text-white">Get a free toothbrush</p>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-3">
+                    <div class="row circle ml-5 justify-content-center">
+                        <i class="fas fa-check mt-1"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <img id="signal-logo" src="images/signal.png" alt="signal-logo">
+                    <p class="text-white">Exclusive discount on all Signal products</p>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-3">
+                    <div class="row circle ml-5 justify-content-center">
+                        <i class="fas fa-check mt-1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
