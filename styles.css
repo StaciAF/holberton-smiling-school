@@ -25,6 +25,13 @@ body {
     background-size: cover;
 }
 
+#bg-img-course {
+    background-image: url('images/pic_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 .bg-primary {
     background-color: #C271FF !important;
 }
@@ -98,19 +105,40 @@ h4 strong {
 
 #bg-img-carousel1 {
     background-image: url('images/thumbnail_1.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 255px;
+    height: 154px;
 }
 
 
 #bg-img-carousel2 {
     background-image: url('images/thumbnail_2.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 255px;
+    height: 154px;
 }
 
 #bg-img-carousel3 {
     background-image: url('images/thumbnail_3.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 255px;
+    height: 154px;
 }
 
 #bg-img-carousel4 {
     background-image: url('images/thumbnail_4.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 255px;
+    height: 154px;
+}
+
+#play-btn {
+    width: 64px;
+    height: 64px;
 }
 
 .carousel-control-prev-icon,
@@ -191,6 +219,49 @@ hr {
 .card {
     border: none;
 }
+
+#course-h1 {
+    font-family: Coiny;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+}
+
+#course-h1 strong {
+    color: #C271FF;
+}
+
+.control-label {
+    font-size: 12px;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+
+.bg-drop {
+    background-color: #d9b5f5;
+    opacity: .75;
+}
+
+.dropdown button:hover, 
+.dropwdown button:focus,
+.dropdown button:active {
+    background: #d9b5f5 !important;
+    transition: 0.3s !important;
+        -moz-transition:0.3s !important;
+        -webkit-transition: 0.3s !important;
+        -o-transition: 0.3s !important;
+}
+
+.dropdown button {
+    font-size: 18px;
+}
+
+
 /* Holberton School Icons */
 
 @font-face {
@@ -236,4 +307,16 @@ hr {
     content: "\e90f";
     font-size: 30px;
     color: white;
+  }
+
+  .holberton_school-icon-search_1:before {
+    content: "\e912";
+    font-size: 20px;
+    color: white;
+  }
+
+  .holberton_school-icon-arrow_5:before {
+      content: "\e904";
+      font-size: 10px;
+      color: white;
   }
