@@ -96,11 +96,6 @@ h4 strong {
     color: #C271FF;
 }
 
-.video img {
-    width: 255px;
-    height: 154px;
-}
-
 #bg-img-carousel1 {
     background-image: url('images/thumbnail_1.jpg');
 }
@@ -126,6 +121,11 @@ h4 strong {
 .card-body img {
     width: 30px;
     height: 30px;
+}
+
+#play-btn {
+    width: 64px;
+    height: 64px;
 }
 
 .checked {
