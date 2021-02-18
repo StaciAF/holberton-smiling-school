@@ -178,7 +178,7 @@ hr {
 
 #signal-logo {
     width: 75px;
-    height: 50px;
+    height: auto;
 }
 
 .circle {
