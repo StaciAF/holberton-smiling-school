@@ -14,18 +14,14 @@ body {
 #bg-img {
     background-image: url('images/pic_1.jpg');
     background-repeat: no-repeat;
-    background-origin: center;
-    background-clip: center;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 }
 
 #bg-img-price {
     background-image: url('images/pic_2.jpg');
     background-repeat: no-repeat;
-    background-origin: center;
-    background-clip: center;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -107,11 +103,6 @@ h4 strong {
 
 #bg-img-carousel1 {
     background-image: url('images/thumbnail_1.jpg');
-    background-repeat: no-repeat;
-    background-origin: center;
-    background-clip: center;
-    background-position: center;
-    background-size: cover;
 }
 
 
@@ -189,4 +180,8 @@ hr {
     width: 28px;
     background-color: #82D24F;
     border-radius: 50%;
+}
+
+.card {
+    border: none;
 }
